@@ -7,10 +7,10 @@ import 'package:project2/presentation/helper/app_values.dart';
 ThemeData appTheme (){
   return ThemeData(
     primaryColor: AppColors.primary,
-    primaryColorLight: AppColors.primary.withOpacity(70),
+    primaryColorLight: AppColors.primary,
     primaryColorDark: AppColors.darkGrey,
     disabledColor: AppColors.lightGrey,
-    splashColor:  AppColors.primary.withOpacity(70),
+  //  splashColor:  AppColors.primary.withOpacity(70),
     colorScheme: ColorScheme.fromSwatch()
         .copyWith(secondary: AppColors.grey),
     cardTheme: CardTheme(
@@ -31,7 +31,7 @@ ThemeData appTheme (){
   ),
       disabledColor: AppColors.lightGrey,
       buttonColor: AppColors.primary,
-      splashColor: AppColors.primary.withOpacity(70),
+      //splashColor: AppColors.primary.withOpacity(70),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(

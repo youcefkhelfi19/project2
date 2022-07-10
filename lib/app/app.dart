@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project2/presentation/helper/app_routes.dart';
 import 'package:project2/presentation/helper/app_theme.dart';
 
 class App extends StatefulWidget {
@@ -14,6 +15,9 @@ class _AppState extends State<App> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: appTheme(),
-        home: Container());
+       onGenerateRoute: AppRouter.routeGenerator,
+      initialRoute: AppRoutes.splashScreen,
+
+    );
   }
 }
