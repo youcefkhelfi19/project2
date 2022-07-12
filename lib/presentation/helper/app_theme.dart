@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:project2/presentation/helper/app_colors.dart';
 import 'package:project2/presentation/helper/app_fonts.dart';
 import 'package:project2/presentation/helper/app_text_styles.dart';
@@ -22,6 +23,10 @@ ThemeData appTheme (){
       elevation: 0.0,
       color:  AppColors.primary,
       centerTitle: true,
+      systemOverlayStyle: const SystemUiOverlayStyle(
+        statusBarBrightness: Brightness.dark,
+        statusBarIconBrightness: Brightness.dark
+      ),
       titleTextStyle: regularStyle(color: Colors.white,size: FontSize.s18),
       
     ),

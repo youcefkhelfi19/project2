@@ -15,6 +15,7 @@ class _AppState extends State<App> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: appTheme(),
+       debugShowCheckedModeBanner: false,
        onGenerateRoute: AppRouter.routeGenerator,
       initialRoute: AppRoutes.splashScreen,
 
