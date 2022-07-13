@@ -6,7 +6,8 @@ import 'package:project2/presentation/helper/app_text_styles.dart';
 import 'package:project2/presentation/helper/app_values.dart';
 import 'package:project2/presentation/screens/onboarding/onboarding_view_model.dart';
 
-import '../../../domain/models/slider_object_model.dart';
+import '../../../domain/models/modeles.dart';
+
 
 class OnBoardingScreen extends StatefulWidget {
    const OnBoardingScreen({Key? key}) : super(key: key);

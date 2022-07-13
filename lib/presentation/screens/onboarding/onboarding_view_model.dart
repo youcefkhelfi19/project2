@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:project2/domain/models/slider_object_model.dart';
 import 'package:project2/presentation/base/base_view_model.dart';
 
+import '../../../domain/models/modeles.dart';
 import '../../helper/app_strings.dart';
 import '../../helper/assets_strings.dart';
 
